@@ -1603,7 +1603,9 @@ a span {
 .input-datepicker input {
 	background-image: url('http://kvlt.info/muhasaba/icons/calendar-month-outline.svg');
 	}
-.input-disabled input {
-	border: 0; background-color: transparent;
+.input-disabled input,
+input[disabled] {
+	border: 0; 
+	background-color: transparent;
 }
 
