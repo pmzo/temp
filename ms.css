@@ -29,248 +29,6 @@
 /*********************************/
 
 
-/*****
- APPLICATION>CSS
-****/
-
-.toolbar-combo .x-form-text {
-    display: inline;
-    color: #000000!important;
-}
-
-.toolbar-combo .x-form-item-label-inner {
-    display: none;
-}
-
-.toolbar-combo .x-form-trigger-wrap-default {
-    border-width: 1px;
-    border-style: hidden;
-    
-}
-
-.hdrtab .x-tab-bar-default-top>.x-tab-bar-body-default{
-	background-color: #70c0f3!important;
-}
- 
-/* .main-icons :active { 
-  background-color: yellow;
-} */
-.toolbar-settings :hover {
-  background-color: #90c0e387;
-  color: black;  
-/* animation: bounce 1s; */
-
-} 
-.toolbar-icons :hover {
-  background-color: #90c0e387;
-  color: black;  
-transform: skew(-10deg);
-} 
-.loginpanel{
-	background: #35baf6 !important;
-}
-.login-panel{
-	background: #35baf6 !important;
-}
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		-webkit-transform: translateX(0);
-		transform: translateX(0);
-	}
-
-	40% {
-		-webkit-transform: translateX(-5px);
-		transform: translateX(-5px);
-	}
-
-	80% {
-		-webkit-transform: translateX(-3px);
-		transform: translateX(-3px);
-	}
-}
-
-.button-link .x-btn-inner-default-small {
-    color: #469f75 !important;
-}
-.toolbar-combo .x-form-text-default  {
-	    background-color: #ffffff00 !important;
-}
-.toolbar-combo .x-form-arrow-trigger-default  {
-	    background-color: #ffffff00 !important;
-}
-/* x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  */
-.maintoptoolbar .x-toolbar-default{
-     /* background-image: linear-gradient(#35d0ff, whitesmoke) !important;  */
-     background-color: white !important;
-    /* background-image: linear-gradient(#35d0ff, #a6e5f9) !important; */
-}
-.centertabpanel .x-tab-bar-body-default{
-	/* background-image: linear-gradient(#a6e5f9,#ffffff) !important; */
-	background-image: linear-gradient(rgb(22, 148, 42), rgb(227, 255, 247));
-}
-.westheading .x-panel-header{
-	background-image: linear-gradient(rgb(22, 148, 42), rgb(227, 255, 247)) !important;
-}
-#westregion_header-title-textEl{
-	color: black;
-}
-/* .centertabpanel .x-panel-body-default{
-	background: #a6e5f9 !important; 
-}
-.centertabpanel .MDI_TabPanel{
-	background: #ffffff !important; 
-} */
-.main-icons{
-	 background-color: #ff0000 !important;
-	 background-color: transparent !important;
-	/*  opacity: 0 !important;  */
-	/* background-color: #adcdd9 !important; */
-/* 	background-color: #ceebf6 !important; */
-}
-
-.main-icons .x-btn-center {
-text-align: center;
-}
-/* .main-icons :hover{
-	animation: bounce 1s;
-	background-color: #ceebf6f5 ;
-}  */
-
-.main-icons .x-btn-center {
-text-align: center;
-}
-
-.main-icons:hover .x-btn-wrap {
-	/* animation: bounce 1s;
-	background-color: #ceebf6f5 ; */
-	background-color: #39c8f447 ;
-	background-color:  #0b63df6e;
-	background-color: #e5e5e56e;
-}   
-.x-btn-button :hover{
-	background-color: #ffffff00 !important;
-}
-.x-box-inner .icons-panel{
-	background-color: #39c8f447 !important;
-}
-#bt_moduleListmenu-innerCt{
-	/* background-color: #a6e5f9 !important; */
-	/* background-image: linear-gradient(to right,#a6e5f9,#ffffff)!important; */
-	 background-color:#ffffff;
-	overflow: visible;
-}
-.main-icons .iconlabel{
-	opacity: 0 !important;
-}
-.main-icons:hover .iconlabel{
-	opacity: 1 !important;
-}
-.main-icons .x-btn-inner{
-	overflow: visible;
-}
-.x-panel-body .icons-panel{
-	background-color: #a6e5f9 !important;
-	overflow: visible;
-}
-.x-panel-body-default .MDI_TabPanel{
-    border-color: #ffffff;
-}
-
-.main-icons .x-btn-center{
-text-align: center;
-}
-
-
-.main-icons:focus .x-btn-wrap {
-	/* animation: bounce 1s;
-	background-color: #ceebf6f5 ; */
-	background-color: #39c8f447 ;
-	background-color:  #0b63df6e;
-	background-color: #00c5e463;
-} 
-#bt_moduleListmenu-body{
-    /*  overflow-x: visible !important;  */
-    z-index: 999;
-}
-.x-btn-arrow-right:after {
-	opacity: 0 !important;
-}
-/* .dashboardcls .x-box-layout-ct {
-
-    border-color: #f0f8ff00 !important;
-} */
-.submenudesign{
-	border: true;
-	border-color: red;
-}
-.dashboardmask{
-	opacity:0.5;
-}
-.x-panel-header-default .x-tool-img {
-    background-color: #67c080;
-    background-color: #67c08000;
-}
-
-.refreshbutton{
-	width: 35px !important;
-    height: 27px;
-    margin-top: -5px;
-}
-b .x-title-text #DashboardSalesValueChart{
-	color: #0e7f47 !important;
-}
-b .x-title-text #DashboardPurchaseValueChart{
-	color: #0e7f47 !important;
-}
-.x-title-text #DashboardSalesValueChart{
-	color: #0e7f47 !important;
-}
-.x-title-text #DashboardSalesValueChart{
-	color: #0e7f47 !important;
-}
-.x-title-text #DashboardSalesValueChart{
-	color: #0e7f47 !important;
-}
-
-.x-treelist-root-container .x-treelist-item{
-	/* background-image: linear-gradient(rgb(101, 189, 98), rgb(3, 133, 88)) !important; */
-      background-color: #fff !important;
-}
-
-.x-treelist-container .x-treelist-item{
-       background-color: #cef2db !important;
-       background-color: #4a4a4a33 !important;
-       
-}
-
-.x-treelist-item .superchild{
-       background-color: #eee !important;
-}
-
-.x-treelist-root-container .x-treelist-item:hover{
-	background-color: #eee !important;
-      
-}
-.x-treelist-root-container .x-treelist-item:active{
-	background-color: #cef2db !important;
-      
-}
-.x-treelist-item .superchild:hover{
-	/* background-image: linear-gradient(rgb(57, 168, 81), rgb(170, 225, 192)) !important; */
-       background-color: #cef2db !important;
-       background-color: #00000066 !important;
-}
-.x-treelist-item-icon, .x-treelist-item-tool {
-    color: #107546;
-    font-size: 18px;
-}
-.x-treelist-item-expander {
-    color: #107546;
-    
-}
-
-/*********END APPLICATION.CSS *************/
-
 
 /*********BAYASYS.CSS ***********/
 
@@ -283,7 +41,6 @@ b .x-title-text #DashboardPurchaseValueChart{
 .x-column-header {
     border-right: 1px solid #cfcfcf;
     color: #666;
-    font: 300 13px/15px helvetica, arial, verdana, sans-serif;
     outline: 0;
     background-color: #f5f5f5;
 }
@@ -296,7 +53,6 @@ b .x-title-text #DashboardPurchaseValueChart{
 .x-btn1-default-small .x-btn1-inner {
     font-size: 12px;
     font-weight: bold;
-    font-family: helvetica,arial,verdana,sans-serif;
     /*    color: white;*/
     padding: 0 5px;
 }
@@ -375,7 +131,6 @@ ext-el-mask{
     color: 	#1E90FF;
     padding: 3px 6px 2px;
    	font-weight: bolder;
-    font: 300 13px/17px helvetica, arial, verdana, sans-serif;
     min-height: 22px;
 }
 /* product configuration screen label color*/
@@ -383,14 +138,12 @@ ext-el-mask{
     color: 	#1E90FF;
     padding: 3px 0px 2px;
    	font-weight: bolder;
-    font: 300 10px/14px helvetica, arial, verdana, sans-serif;
     min-height: 22px;
 }
 .x-form-text-defaultfroDisabled {
     color: #000;
     padding: 3px 6px 2px;
     background-color: rgb(189, 193, 191);
-    font: 300 13px/17px helvetica, arial, verdana, sans-serif;
     min-height: 22px;
 }
 
@@ -403,25 +156,18 @@ ext-el-mask{
 .x-grid-row .custom-column { 
     color: #000;  
     background-color: rgb(189, 193, 191);
-    font: 300 13px/17px helvetica, arial, verdana, sans-serif;
     min-height: 22px;
 }
 
 .x-grid-row .custom-column-white {
-	font: 300 13px/17px helvetica, arial, verdana, sans-serif;
     min-height: 22px;
     background-color: rgb(255, 255, 255);
     color: #000; 
 }
 
 .x-grid-row .custom-report-column { 
-    /*    color: #000;  
-        background-color: #e5e9c3;
-        font: 300 13px/17px helvetica, arial, verdana, sans-serif;
-        min-height: 22px;*/
+
 }
-
-
 
 .downarrowcls {
     overflow: hidden;
@@ -448,6 +194,7 @@ ext-el-mask{
 .YellowColor .x-grid-cell{    
     background-color:  rgb(189, 193, 191);;
 }
+
 #grd_QuickPick-body::-webkit-scrollbar 
 {
     width: 0px;
@@ -788,7 +535,6 @@ label.x-form-required-field > span:after {
 }
 
 
-<!----------------------------------------------------------------------------------------------------->
 
 
 .wizard-v7-content   {
@@ -1259,23 +1005,16 @@ div.thumb-wrap div.overlayo input.preview:hover {
   	
 }
 .btnooicon{
- 
-/* 	'background': '#83d13d'; */
    	background-image: url(resources/css/icons/notificationbell7.png);
    	backgroundRepeat: no-repeat;
    	background-size: 90% 90%;
    	background-position: center;
-	                                                  
 }
+
 .doc-format-img-overlay-centered {
-/*   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
-  /*  opacity: 0.5; */
+
 }
 .overlay11 {
-/*   position: absolute; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -1284,7 +1023,6 @@ div.thumb-wrap div.overlayo input.preview:hover {
   width: 100%;
   opacity: 0.5;
   transition: .5s ease;
-/*   background-color: #008CBA; */
 }
 
 
@@ -1309,28 +1047,10 @@ div.thumb-wrap div.overlayo input.preview:hover {
 	    padding: 0 0 0 50px;
 }
 
-
-/*     color: #0e0b0b;
-    font-size: 31px;
-    vertical-align: middle;
-    position: relative;
-    height: 100%;
-    width: 85%;
-    background: url(icons/Selected-Tick.png);
-    background-color: #f4f4f4;
-    background-size: contain;
-    top: 50%;
-    left: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 122px;
-    background-position-x: 27px;
-    color: #65aeb5;
-    opacity: 0.5; */
-
-/* .details-customer .input-customer-name{
-    height: 50px;
-} */
- .screen-header input, .screen-footer input, .screen-header textarea, .screen-footer textarea{
+.screen-header input, 
+.screen-footer input, 
+.screen-header textarea, 
+.screen-footer textarea{
 	border: 1px solid #000;
 	padding: 10px;
     border-radius: 4px;
@@ -1404,6 +1124,254 @@ body {font-family: var(--font-fam-sans);}
 
 
 /*************END BAYASYS.CSS**************/
+
+
+
+
+/*****
+ APPLICATION>CSS
+****/
+
+.toolbar-combo .x-form-text {
+    display: inline;
+    color: #000000!important;
+}
+
+.toolbar-combo .x-form-item-label-inner {
+    display: none;
+}
+
+.toolbar-combo .x-form-trigger-wrap-default {
+    border-width: 1px;
+    border-style: hidden;
+    
+}
+
+.hdrtab .x-tab-bar-default-top>.x-tab-bar-body-default{
+	background-color: #70c0f3!important;
+}
+ 
+/* .main-icons :active { 
+  background-color: yellow;
+} */
+.toolbar-settings :hover {
+  background-color: #90c0e387;
+  color: black;  
+/* animation: bounce 1s; */
+
+} 
+.toolbar-icons :hover {
+  background-color: #90c0e387;
+  color: black;  
+transform: skew(-10deg);
+} 
+.loginpanel{
+	background: #35baf6 !important;
+}
+.login-panel{
+	background: #35baf6 !important;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	40% {
+		-webkit-transform: translateX(-5px);
+		transform: translateX(-5px);
+	}
+
+	80% {
+		-webkit-transform: translateX(-3px);
+		transform: translateX(-3px);
+	}
+}
+
+.button-link .x-btn-inner-default-small {
+    color: #469f75 !important;
+}
+.toolbar-combo .x-form-text-default  {
+	    background-color: #ffffff00 !important;
+}
+.toolbar-combo .x-form-arrow-trigger-default  {
+	    background-color: #ffffff00 !important;
+}
+/* x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  */
+.maintoptoolbar .x-toolbar-default{
+     /* background-image: linear-gradient(#35d0ff, whitesmoke) !important;  */
+     background-color: white !important;
+    /* background-image: linear-gradient(#35d0ff, #a6e5f9) !important; */
+}
+.centertabpanel .x-tab-bar-body-default{
+	/* background-image: linear-gradient(#a6e5f9,#ffffff) !important; */
+	background-image: linear-gradient(rgb(22, 148, 42), rgb(227, 255, 247));
+}
+.westheading .x-panel-header{
+	background-image: linear-gradient(rgb(22, 148, 42), rgb(227, 255, 247)) !important;
+}
+#westregion_header-title-textEl{
+	color: black;
+}
+/* .centertabpanel .x-panel-body-default{
+	background: #a6e5f9 !important; 
+}
+.centertabpanel .MDI_TabPanel{
+	background: #ffffff !important; 
+} */
+.main-icons{
+	 background-color: #ff0000 !important;
+	 background-color: transparent !important;
+	/*  opacity: 0 !important;  */
+	/* background-color: #adcdd9 !important; */
+/* 	background-color: #ceebf6 !important; */
+}
+
+.main-icons .x-btn-center {
+text-align: center;
+}
+/* .main-icons :hover{
+	animation: bounce 1s;
+	background-color: #ceebf6f5 ;
+}  */
+
+.main-icons .x-btn-center {
+text-align: center;
+}
+
+.main-icons:hover .x-btn-wrap {
+	/* animation: bounce 1s;
+	background-color: #ceebf6f5 ; */
+	background-color: #39c8f447 ;
+	background-color:  #0b63df6e;
+	background-color: #e5e5e56e;
+}   
+.x-btn-button :hover{
+	background-color: #ffffff00 !important;
+}
+.x-box-inner .icons-panel{
+	background-color: #39c8f447 !important;
+}
+#bt_moduleListmenu-innerCt{
+	/* background-color: #a6e5f9 !important; */
+	/* background-image: linear-gradient(to right,#a6e5f9,#ffffff)!important; */
+	 background-color:#ffffff;
+	overflow: visible;
+}
+.main-icons .iconlabel{
+	opacity: 0 !important;
+}
+.main-icons:hover .iconlabel{
+	opacity: 1 !important;
+}
+.main-icons .x-btn-inner{
+	overflow: visible;
+}
+.x-panel-body .icons-panel{
+	background-color: #a6e5f9 !important;
+	overflow: visible;
+}
+.x-panel-body-default .MDI_TabPanel{
+    border-color: #ffffff;
+}
+
+.main-icons .x-btn-center{
+text-align: center;
+}
+
+
+.main-icons:focus .x-btn-wrap {
+	/* animation: bounce 1s;
+	background-color: #ceebf6f5 ; */
+	background-color: #39c8f447 ;
+	background-color:  #0b63df6e;
+	background-color: #00c5e463;
+} 
+#bt_moduleListmenu-body{
+    /*  overflow-x: visible !important;  */
+    z-index: 999;
+}
+.x-btn-arrow-right:after {
+	opacity: 0 !important;
+}
+/* .dashboardcls .x-box-layout-ct {
+
+    border-color: #f0f8ff00 !important;
+} */
+.submenudesign{
+	border: true;
+	border-color: red;
+}
+.dashboardmask{
+	opacity:0.5;
+}
+.x-panel-header-default .x-tool-img {
+    background-color: #67c080;
+    background-color: #67c08000;
+}
+
+.refreshbutton{
+	width: 35px !important;
+    height: 27px;
+    margin-top: -5px;
+}
+b .x-title-text #DashboardSalesValueChart{
+	color: #0e7f47 !important;
+}
+b .x-title-text #DashboardPurchaseValueChart{
+	color: #0e7f47 !important;
+}
+.x-title-text #DashboardSalesValueChart{
+	color: #0e7f47 !important;
+}
+.x-title-text #DashboardSalesValueChart{
+	color: #0e7f47 !important;
+}
+.x-title-text #DashboardSalesValueChart{
+	color: #0e7f47 !important;
+}
+
+.x-treelist-root-container .x-treelist-item{
+	/* background-image: linear-gradient(rgb(101, 189, 98), rgb(3, 133, 88)) !important; */
+      background-color: #fff !important;
+}
+
+.x-treelist-container .x-treelist-item{
+       background-color: #cef2db !important;
+       background-color: #4a4a4a33 !important;
+       
+}
+
+.x-treelist-item .superchild{
+       background-color: #eee !important;
+}
+
+.x-treelist-root-container .x-treelist-item:hover{
+	background-color: #eee !important;
+      
+}
+.x-treelist-root-container .x-treelist-item:active{
+	background-color: #cef2db !important;
+      
+}
+.x-treelist-item .superchild:hover{
+	/* background-image: linear-gradient(rgb(57, 168, 81), rgb(170, 225, 192)) !important; */
+       background-color: #cef2db !important;
+       background-color: #00000066 !important;
+}
+.x-treelist-item-icon, .x-treelist-item-tool {
+    color: #107546;
+    font-size: 18px;
+}
+.x-treelist-item-expander {
+    color: #107546;
+    
+}
+
+/*********END APPLICATION.CSS *************/
+
+
+
 
 html {
 }
