@@ -1,28 +1,16 @@
-/**
-@import url('https://unpkg.com/picnic"');**/
-
-/*
-:root {
-	--font-fam-sans: 		monospace;
-	--font-fam-serif: 		'Roboto Slab', serif;
-	--font-fam-mono: 		'Roboto Mono', monospace;
-	--color-ibridge-cyan:	#00aeef;
-	--color-ibridge-indigo:	#002e6e;
-	--color-ibridge-grey:	#bbbdc0;
-	--color-primary:		#002e6e;
-	--color-secondary:		#00aeef;
-	--color-tertiary:		#bbbdc0;
-}
-*/
-
 :root {
 	--white: 		rgba(255,255,255,1);
 	--black:		rgba(0,0,0,1);
 	--grey-light:	rgba(245,245,245,1);
 	--grey:			rgba(190,190,190,1);
 	--grey-dark:	rgba(10,10,10,1);
-
+	
 	--white-25: 		rgba(255,255,255,0.25);
+	--white-50: 		rgba(255,255,255,0.5);
+	
+	--font-fam-sans : 'Noto Sans', sans-serif;
+	--font-fam-serif: 'Noto Serif', serif;
+	--font-fam-mono : 'Noto Sans Mono', monospace;
 }
 
 
@@ -33,11 +21,6 @@
 /*********BAYASYS.CSS ***********/
 
 
-:root {
---font-fam-sans : 'Noto Sans', sans-serif;
---font-fam-serif: 'Noto Serif', serif;
---font-fam-mono : 'Noto Sans Mono', monospace;
-}
 .x-column-header {
     border-right: 1px solid #cfcfcf;
     color: #666;
@@ -49,25 +32,24 @@
 }
 
 @page { margin: 0; }
+
 /* Button Font Colour, Size */
 .x-btn1-default-small .x-btn1-inner {
     font-size: 12px;
     font-weight: bold;
-    /*    color: white;*/
     padding: 0 5px;
 }
-ext-el-mask{
+/* .ext-el-mask{
     color:gray;
     cursor:default;
     opacity:0.6;
     background-color:grey;
-}
+} */
 
 .ext-el-mask-msg div {
     background-color: #EEEEEE;
     border-color: #A3BAD9;
     color: #222222;
-    font: 1.2em tahoma,arial,helvetica,sans-serif;
 }
 
 .ext-el-mask-msg {
@@ -254,7 +236,6 @@ ext-el-mask{
 }
 .edotorstyle {
     font-size: 13px;
-    font-family: helvetica, arial, verdana, sans-serif;
     color: rgb(0, 0, 0);
     cursor: text;
     background-image: none;
@@ -305,7 +286,6 @@ ext-el-mask{
     color: #000;
     font-size: 13px;
     font-weight: 300;
-    font-family: helvetica, arial, verdana, sans-serif;
     border-width: 0.1px;
     border-style: solid;
 }
@@ -444,7 +424,6 @@ table.tabular th.scrollbarCol {
 
 table.tabular {
     FONT-SIZE: 13px;
-    FONT-FAMILY: 'Verdana, Arial, Helvetica, sans-serif';
     COLOR: #336699;
 }
 
@@ -546,7 +525,6 @@ label.x-form-required-field > span:after {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	margin: -13px 0 185px;
-	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	display: flex;
 	display: -webkit-flex;
@@ -739,7 +717,6 @@ label.x-form-required-field > span:after {
     -webkit-outline: none;
     -o-outline: none;
     -ms-outline: none;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #333;
@@ -1409,8 +1386,7 @@ div {
 .x-form-text-default,
 .x-treelist-item-text,
 .x-window-header-title-default {
-	/*font-family: var(--font-fam-sans);
-	color: red !important;*/
+
 }
 
 .x-treelist-root-container .x-treelist-item{
