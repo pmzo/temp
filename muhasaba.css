@@ -1,0 +1,342 @@
+/**
+@import url('https://unpkg.com/picnic"');**/
+
+/*
+:root {
+	--font-fam-sans: 		monospace;
+	--font-fam-serif: 		'Roboto Slab', serif;
+	--font-fam-mono: 		'Roboto Mono', monospace;
+	--color-ibridge-cyan:	#00aeef;
+	--color-ibridge-indigo:	#002e6e;
+	--color-ibridge-grey:	#bbbdc0;
+	--color-primary:		#002e6e;
+	--color-secondary:		#00aeef;
+	--color-tertiary:		#bbbdc0;
+}
+*/
+
+:root {
+	--white: 		rgba(255,255,255,1);
+	--black:		rgba(0,0,0,1);
+	--grey-light:	rgba(245,245,245,1);
+	--grey:			rgba(190,190,190,1);
+	--grey-dark:	rgba(10,10,10,1);
+
+	--white-25: 		rgba(255,255,255,0.25);
+}
+
+
+/*********************************/
+
+html {
+}
+
+body {
+}
+
+div { 
+	border: 0 !important;
+}
+
+.x-body,
+.x-mask-msg-inner,
+.x-progress-default .x-progress-text,
+.x-btn-inner-default-small,
+.x-btn-inner-default-medium,
+.x-btn-inner-default-large,
+.x-btn-inner-default-toolbar-small,
+.x-btn-inner-default-toolbar-medium,
+.x-btn-inner-default-toolbar-large,
+.x-toolbar-text-default,
+.x-panel-body-default,
+.x-tab-inner-default,
+.x-panel-header-title-default,
+.x-form-item-label-default,
+.x-grid-item,
+.x-panel-body-default-framed,
+.x-panel-header-title-default-framed,
+.x-form-item-label-default,
+.x-column-header,
+.x-grid-group-title,
+.x-fieldset-header-default > .x-fieldset-header-text,
+.x-boundlist-item,
+.x-form-text,
+.x-form-text-default,
+.x-treelist-item-text,
+.x-window-header-title-default {
+	/*font-family: var(--font-fam-sans);
+	color: red !important;*/
+}
+
+.x-treelist-root-container .x-treelist-item{
+   /* this can be used to customize first main icons */
+}
+
+.x-treelist-container .x-treelist-item{
+   /* this can be used for second layer of icons */
+}
+
+.x-treelist-item-text {
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-left: 0;
+	padding-left: 30px;
+	background-size: contain;
+}
+
+.x-treelist-item-icon.fa-star {display: none;}
+.x-treelist-item-icon.fa-th-large {display: none;}
+.x-treelist-item-icon.fa-life-ring {display: none;}
+
+.x-treelist-item-wrap {padding: 5px 0;}
+
+
+#ext-element-105 {background-image: url('http://kvlt.info/muhasaba/icons/wallet.svg');}
+	#ext-element-198{);}
+	#ext-element-204{}
+	#ext-element-209{}
+	#ext-element-214{}
+	#ext-element-219{}
+	#ext-element-224{}
+#ext-element-134 {background-image: url('http://kvlt.info/muhasaba/icons/cash-register.svg');}
+	#ext-element-234{}
+	#ext-element-240{}
+	#ext-element-245{}
+	#ext-element-250{}
+	#ext-element-255{}
+	#ext-element-260{}
+#ext-element-165 {background-image: url('http://kvlt.info/muhasaba/icons/checkbook.svg');}
+#ext-element-216 {background-image: url('http://kvlt.info/muhasaba/icons/book-multiple.svg');}
+#ext-element-237 {background-image: url('http://kvlt.info/muhasaba/icons/file-chart.svg');}
+#ext-element-460 {background-image: url('http://kvlt.info/muhasaba/icons/tune.svg');}
+#ext-element-506 {background-image: url('http://kvlt.info/muhasaba/icons/tools.svg');}
+
+
+
+#bt_moduleListmenu li:hover {
+	background-color: transparent;
+}
+
+#maincenter-body{
+	background: var(--grey-light) !important;
+}
+
+#northPanel {
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.15);
+}
+#northPanel, #northPanel-body {
+    height: 45px !important;
+}
+
+.x-boundlist-floating {
+	box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.15);
+	border-radius: 0 0 5px 5px;
+}
+
+.x-tool-expand-right {
+    background-image: url('http://kvlt.info/muhasaba/icons/menu.svg') !important;
+    background-size: contain;
+}
+
+.x-tool-collapse-left {
+    background-image: url('http://kvlt.info/muhasaba/icons/backburger.svg') !important;
+    background-size: contain;
+}
+
+.refreshbutton {
+	background-image: url('http://kvlt.info/muhasaba/icons/refresh.svg') !important;
+    background-size: contain;
+}
+
+#topToolbar .x-btn-default-toolbar-small {
+	height: 24px !important;
+	width: 24px !important;
+	margin-top: 6px !important;
+    background-size: contain !important;	
+}
+
+.x-tab.x-tab-active.x-tab-default {
+	border-color: var(--primary);
+	background-color: var(--primary);
+	color: var(--white);
+}
+
+.x-tab.x-tab-active.x-tab-default a span{
+	border-color: var(--white);
+	background-color: var(--white);
+}
+
+.x-btn-focus {
+	background-color: var(--primary);
+}
+
+#AlertBell {background-image: url('http://kvlt.info/muhasaba/icons/bell-circle.svg') !important;}
+#button-1039 {background-image: url('http://kvlt.info/muhasaba/icons/magnify.svg') !important;}
+#button-1042 {background-image: url('http://kvlt.info/muhasaba/icons/settings.svg') !important;}
+#button-1044{background-image: url('http://kvlt.info/muhasaba/icons/help-circle.svg') !important;}
+#button-1045{background-image: url('http://kvlt.info/muhasaba/icons/account-circle.svg') !important;}
+
+
+.x-box-scroller-body-horizontal {
+	height: 40px !important;
+}
+
+.x-tab {
+	height: 40px !important;
+	padding: 10px !important;
+}
+
+#MDI_TabPanel-body {
+    margin-top: -16px;
+}
+
+.x-tab-default .x-tab-close-btn {
+	background-image: url(http://kvlt.info/muhasaba/icons/close-circle-outline.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center !important;
+	height: 20px;
+	width: 20px;
+	top: 0;
+	right: 0;
+}
+
+.x-tab-default .x-tab-close-btn-over {
+	background-image: url(http://kvlt.info/muhasaba/icons/close-circle.svg);	
+	background-position: center center !important;
+}
+
+.x-tab-wrap {
+}
+
+.x-tab-default-top  {
+		border-color: var(--grey-light); 
+		background-color: var(--grey-light); 
+		color: var(--black);
+}
+.x-form-trigger-default {
+	/* background-image: url(http://kvlt.info/muhasaba/icons/chevron-down.svg); */
+	/* background-size: contain; */
+	/* background-position: center center !important; */
+}
+
+
+.x-treelist-item-expander::after {
+	/* content:"" !important; */
+}
+
+.x-treelist-item-selected .x-treelist-item-expanded {
+}
+
+#bt_moduleListmenu ul li {
+   /* padding: 4px 0;*/
+}
+.x-treelist-row.superchild {padding-top: 4px; padding-bottom: 4px;}
+
+
+.x-form-trigger-default {
+	width: 22px;
+	background-image: url(http://kvlt.info/muhasaba/icons/chevron-down.svg);
+	background-size: contain;
+	background-position: center center !important;	
+}
+
+.x-tab-wrap {
+	margin-top: -3px;
+}
+
+.x-box-scroller-tab-bar-default.x-box-scroller-right {
+	background-image: url(http://kvlt.info/muhasaba/icons/chevron-right.svg);
+	top: 20px;
+}
+
+.x-box-scroller-tab-bar-default.x-box-scroller-left {
+	background-image: url(http://kvlt.info/muhasaba/icons/chevron-left.svg);
+	top: 20px;	
+}
+
+a span {
+	color: var(--color-primary);
+}
+
+.tab-screen-number {
+	color: var(--grey);
+}
+.x-autocontainer-innerCt {
+	background-color: var(--white) !important;
+}
+
+.form-group {
+	margin-bottom: 0 !important;
+	}
+.x-form-trigger-default {
+	display: none;
+}
+
+.screen-header {
+	padding-left: 30px;
+	}
+
+.screen-footer label { 
+	width: 100%;	text-align: right; padding-right: 2rem; 
+}
+.screen-footer input {
+	text-align: right; font-weight: bold;
+	}
+
+.toolbariconminwidth {
+	background-image: none;
+	}
+
+.screen-main .x-grid {
+	border-radius: 8px; border: 1px solid var(--black) !important;
+	}
+.screen-main .x-grid-header-ct {
+	border-width: 0; background: var(--grey-dark); color: var(--white);
+}
+.screen-main .x-column-header {
+	color: inherit; 
+	background: transparent;
+	}
+.screen-main .x-column-header-focus {color: var(--grey-dark); background: var(--white);}
+.screen-main .x-column-header-over {color: var(--black); background: var(grey-light); }
+
+.centertabpanel .x-tab-bar-body-default, .westheading .x-panel-header {background-color: var(--white); background-image: none !important;}
+
+
+.x-grid-body, .x-panel-body-default {
+	background: transparent;
+}
+
+/* input:read-only {border: 0; background-color: transparent;} */
+
+.x-mask {
+	background-color: var(--white-25);
+	}
+#ext-element-92 {
+	opacity: 1;	
+}
+#LoginWindow-body input {
+	border: 1px solid var(--black); border-radius: 4px; padding: 10px;
+	}
+
+.x-form-trigger {
+	display: none !important;
+	}
+
+.input-extended input {
+	background-repeat: no-repeat; 
+	background-size: contain; 
+	background-position: right center;
+	padding-right: 20px;
+	}
+
+.input-selector input {
+	background-image: url('http://kvlt.info/muhasaba/icons/chevron-down.svg'); 
+	}
+.input-datepicker input {
+	background-image: url('http://kvlt.info/muhasaba/icons/calendar-month-outline.svg');
+	}
+.input-disabled input {
+	border: 0; background-color: transparent;
+}
