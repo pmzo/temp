@@ -1085,9 +1085,7 @@ body {
 .form-group {
 	margin-bottom: 0;
 	}
-.x-form-trigger-default {
-	display: none;
-}
+
 
 
 /*************END BAYASYS.CSS**************/
@@ -1152,13 +1150,8 @@ body {
 .button-link .x-btn-inner-default-small {
     color: #469f75 !important;
 }
-.toolbar-combo .x-form-text-default  {
-	    background-color: #ffffff00 !important;
-}
-.toolbar-combo .x-form-arrow-trigger-default  {
-	    background-color: #ffffff00 !important;
-}
-/* x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  */
+
+
 .maintoptoolbar .x-toolbar-default{
      background-color: white !important;
 }
@@ -1168,35 +1161,20 @@ body {
 #westregion_header-title-textEl{
 	color: black;
 }
-/* .centertabpanel .x-panel-body-default{
-	background: #a6e5f9 !important; 
-}
-.centertabpanel .MDI_TabPanel{
-	background: #ffffff !important; 
-} */
+
 .main-icons{
-	 background-color: #ff0000 !important;
 	 background-color: transparent !important;
-	/*  opacity: 0 !important;  */
-	/* background-color: #adcdd9 !important; */
-/* 	background-color: #ceebf6 !important; */
 }
 
 .main-icons .x-btn-center {
 text-align: center;
 }
-/* .main-icons :hover{
-	animation: bounce 1s;
-	background-color: #ceebf6f5 ;
-}  */
 
 .main-icons .x-btn-center {
 text-align: center;
 }
 
 .main-icons:hover .x-btn-wrap {
-	/* animation: bounce 1s;
-	background-color: #ceebf6f5 ; */
 	background-color: #39c8f447 ;
 	background-color:  #0b63df6e;
 	background-color: #e5e5e56e;
@@ -1208,7 +1186,6 @@ text-align: center;
 	background-color: #39c8f447 !important;
 }
 #bt_moduleListmenu-innerCt{
-	/* background-color: #a6e5f9 !important; */
 	 background-color:#ffffff;
 	overflow: visible;
 }
@@ -1235,25 +1212,16 @@ text-align: center;
 
 
 .main-icons:focus .x-btn-wrap {
-	/* animation: bounce 1s;
-	background-color: #ceebf6f5 ; */
-	background-color: #39c8f447 ;
-	background-color:  #0b63df6e;
 	background-color: #00c5e463;
 } 
 #bt_moduleListmenu-body{
-    /*  overflow-x: visible !important;  */
     z-index: 999;
 }
 .x-btn-arrow-right:after {
 	opacity: 0 !important;
 }
-/* .dashboardcls .x-box-layout-ct {
 
-    border-color: #f0f8ff00 !important;
-} */
 .submenudesign{
-	border: true;
 	border-color: red;
 }
 .dashboardmask{
@@ -1261,7 +1229,6 @@ text-align: center;
 }
 .x-panel-header-default .x-tool-img {
     background-color: #67c080;
-    background-color: #67c08000;
 }
 
 .refreshbutton{
@@ -1505,12 +1472,6 @@ b .x-title-text #DashboardPurchaseValueChart{
 		background-color: var(--grey-light); 
 		color: var(--black);
 }
-.x-form-trigger-default {
-	/* background-image: url(http://kvlt.info/muhasaba/icons/chevron-down.svg); */
-	/* background-size: contain; */
-	/* background-position: center center !important; */
-}
-
 
 .x-treelist-item-expander::after {
 	/* content:"" !important; */
@@ -1563,9 +1524,7 @@ a span {
 .form-group {
 	margin-bottom: 0 !important;
 	}
-.x-form-trigger-default {
-	display: none;
-}
+
 
 .screen-header {
 	padding-left: 30px;
@@ -1629,10 +1588,6 @@ a span {
 }
 #LoginWindow-body input {
 	border: 1px solid var(--black); border-radius: 4px; padding: 10px;
-	}
-
-.x-form-trigger {
-	display: none !important;
 	}
 
 .input-extended input {
