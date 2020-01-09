@@ -1380,11 +1380,7 @@ body
     margin-bottom: 0;
 
 }
-.x-form-trigger-default
-{
-    display: none;
 
-}
 /* .screen-footer label
 {
     width: 100%;
@@ -1406,12 +1402,7 @@ body
     font-weight: bold;
 
 }
-.screen-main .x-grid
-{
-    border-radius: 8px;
-    border-width: 0;
 
-}
 .screen-main .x-grid-header-ct
 {
     border-width: 0;
@@ -2120,11 +2111,7 @@ a span
     margin-bottom: 0 !important;
 
 }
-.x-form-trigger-default
-{
-    display: none;
 
-}
 .screen-header
 {
     padding-left: 30px;
