@@ -1236,16 +1236,11 @@ transform: skew(-10deg);
 }
 /* x-form-trigger x-form-trigger-default x-form-arrow-trigger x-form-arrow-trigger-default  */
 .maintoptoolbar .x-toolbar-default{
-     /* background-image: linear-gradient(#35d0ff, whitesmoke) !important;  */
      background-color: white !important;
-    /* background-image: linear-gradient(#35d0ff, #a6e5f9) !important; */
 }
 .centertabpanel .x-tab-bar-body-default{
-	/* background-image: linear-gradient(#a6e5f9,#ffffff) !important; */
-	background-image: linear-gradient(rgb(22, 148, 42), rgb(227, 255, 247));
 }
 .westheading .x-panel-header{
-	background-image: linear-gradient(rgb(22, 148, 42), rgb(227, 255, 247)) !important;
 }
 #westregion_header-title-textEl{
 	color: black;
@@ -1291,7 +1286,6 @@ text-align: center;
 }
 #bt_moduleListmenu-innerCt{
 	/* background-color: #a6e5f9 !important; */
-	/* background-image: linear-gradient(to right,#a6e5f9,#ffffff)!important; */
 	 background-color:#ffffff;
 	overflow: visible;
 }
@@ -1369,7 +1363,6 @@ b .x-title-text #DashboardPurchaseValueChart{
 }
 
 .x-treelist-root-container .x-treelist-item{
-	/* background-image: linear-gradient(rgb(101, 189, 98), rgb(3, 133, 88)) !important; */
       background-color: #fff !important;
 }
 
@@ -1392,7 +1385,6 @@ b .x-title-text #DashboardPurchaseValueChart{
       
 }
 .x-treelist-item .superchild:hover{
-	/* background-image: linear-gradient(rgb(57, 168, 81), rgb(170, 225, 192)) !important; */
        background-color: #cef2db !important;
        background-color: #00000066 !important;
 }
@@ -1401,7 +1393,7 @@ b .x-title-text #DashboardPurchaseValueChart{
     font-size: 18px;
 }
 .x-treelist-item-expander {
-    color: #107546;
+    display: none !important;
     
 }
 
