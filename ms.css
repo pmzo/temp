@@ -1,19 +1,4 @@
-/**
-@import url('https://unpkg.com/picnic"');**/
 
-/*
-:root {
-	--font-fam-sans: 		monospace;
-	--font-fam-serif: 		'Roboto Slab', serif;
-	--font-fam-mono: 		'Roboto Mono', monospace;
-	--color-ibridge-cyan:	#00aeef;
-	--color-ibridge-indigo:	#002e6e;
-	--color-ibridge-grey:	#bbbdc0;
-	--color-primary:		#002e6e;
-	--color-secondary:		#00aeef;
-	--color-tertiary:		#bbbdc0;
-}
-*/
 
 :root {
 	--white: 		rgba(255,255,255,1);
@@ -23,6 +8,10 @@
 	--grey-dark:	rgba(10,10,10,1);
 
 	--white-25: 		rgba(255,255,255,0.25);
+	
+	--font-fam-sans : 'Noto Sans', sans-serif;
+	--font-fam-serif: 'Noto Serif', serif;
+	--font-fam-mono : 'Noto Sans Mono', monospace;
 }
 
 
@@ -33,12 +22,6 @@
 
 /*********BAYASYS.CSS ***********/
 
-
-:root {
---font-fam-sans : 'Noto Sans', sans-serif;
---font-fam-serif: 'Noto Serif', serif;
---font-fam-mono : 'Noto Sans Mono', monospace;
-}
 .x-column-header {
     border-right: 1px solid #cfcfcf;
     color: #666;
@@ -55,8 +38,6 @@
 .x-btn1-default-small .x-btn1-inner {
     font-size: 12px;
     font-weight: bold;
-    font-family: helvetica,arial,verdana,sans-serif;
-    /*    color: white;*/
     padding: 0 5px;
 }
 ext-el-mask{
@@ -266,7 +247,6 @@ ext-el-mask{
 }
 .edotorstyle {
     font-size: 13px;
-    font-family: helvetica, arial, verdana, sans-serif;
     color: rgb(0, 0, 0);
     cursor: text;
     background-image: none;
@@ -317,7 +297,6 @@ ext-el-mask{
     color: #000;
     font-size: 13px;
     font-weight: 300;
-    font-family: helvetica, arial, verdana, sans-serif;
     border-width: 0.1px;
     border-style: solid;
 }
@@ -456,7 +435,6 @@ table.tabular th.scrollbarCol {
 
 table.tabular {
     FONT-SIZE: 13px;
-    FONT-FAMILY: 'Verdana, Arial, Helvetica, sans-serif';
     COLOR: #336699;
 }
 
@@ -556,7 +534,6 @@ label.x-form-required-field > span:after {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	margin: -13px 0 185px;
-	font-family: 'Open Sans', sans-serif;
 	position: relative;
 	display: flex;
 	display: -webkit-flex;
@@ -749,7 +726,6 @@ label.x-form-required-field > span:after {
     -webkit-outline: none;
     -o-outline: none;
     -ms-outline: none;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 16px;
     color: #333;
@@ -1098,17 +1074,19 @@ div.thumb-wrap div.overlayo input.preview:hover {
 }
 
 
-body {font-family: var(--font-fam-sans);}
-.x-panel-body-default, .x-form-text-default {font-family: var(--font-fam-sans); font-size: 1rem;}
+body {
+	font-family: var(--font-fam-sans);
+}
+.x-panel-body-default, .x-form-text-default {
+	font-family: var(--font-fam-sans); 
+	font-size: 1rem;
+	}
 
-.form-group {margin-bottom: 0;}
-.x-form-trigger-default {display: none;}
-
-
-
-.centertabpanel .x-tab-bar-body-default {background-color: var(--primary); background-image: none;}
-#ext-element-92 {
-    background-color: rgba(255,255,255,.25) !important;
+.form-group {
+	margin-bottom: 0;
+	}
+.x-form-trigger-default {
+	display: none;
 }
 
 
@@ -1134,23 +1112,19 @@ body {font-family: var(--font-fam-sans);}
     
 }
 
-.hdrtab .x-tab-bar-default-top>.x-tab-bar-body-default{
+/* .hdrtab .x-tab-bar-default-top>.x-tab-bar-body-default{
 	background-color: #70c0f3!important;
 }
- 
-/* .main-icons :active { 
-  background-color: yellow;
-} */
+  */
 .toolbar-settings :hover {
   background-color: #90c0e387;
   color: black;  
-/* animation: bounce 1s; */
-
-} 
+}
+ 
 .toolbar-icons :hover {
   background-color: #90c0e387;
   color: black;  
-transform: skew(-10deg);
+	transform: skew(-10deg);
 } 
 .loginpanel{
 	background: #35baf6 !important;
@@ -1188,8 +1162,7 @@ transform: skew(-10deg);
 .maintoptoolbar .x-toolbar-default{
      background-color: white !important;
 }
-.centertabpanel .x-tab-bar-body-default{
-}
+
 .westheading .x-panel-header{
 }
 #westregion_header-title-textEl{
