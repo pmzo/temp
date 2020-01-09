@@ -547,7 +547,6 @@ label.x-form-required-field > span:after {
 }
 
 
-<!----------------------------------------------------------------------------------------------------->
 
 
 .wizard-v7-content   {
@@ -1150,11 +1149,6 @@ body {font-family: var(--font-fam-sans);}
 .screen-footer label { width: 100%; text-align: left; padding-right: 2rem; }
 .screen-footer input {text-align: right; font-weight: bold;}
 
-.screen-main .x-grid {border-radius: 8px; border-width: 0;}
-.screen-main .x-grid-header-ct {border-width: 0; background: var(--gray-dark); color: #ffffff;}
-.screen-main .x-column-header {color: inherit; background: transparent;}
-.screen-main .x-column-header-focus {color: var(--gray-dark); background: #ffffff;}
-.screen-main .x-column-header-over {color: #000000; background: #cccccc; }
 
 .centertabpanel .x-tab-bar-body-default {background-color: var(--primary); background-image: none;}
 #ext-element-92 {
@@ -1678,8 +1672,14 @@ a span {
 	color: inherit; 
 	background: transparent;
 	}
-.screen-main .x-column-header-focus {color: var(--grey-dark); background: var(--white);}
-.screen-main .x-column-header-over {color: var(--black); background: var(grey-light); }
+.screen-main .x-column-header-focus {
+	color: var(--grey-dark); 
+	background: var(--white);
+	}
+.screen-main .x-column-header-over {
+	color: var(--black); 
+	background: var(grey-light); 
+	}
 
 .centertabpanel .x-tab-bar-body-default, 
 .westheading .x-panel-header {
@@ -1692,7 +1692,6 @@ a span {
 	background: transparent;
 }
 
-/* input:read-only {border: 0; background-color: transparent;} */
 
 .x-mask {
 	background-color: var(--white-25);
