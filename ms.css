@@ -278,8 +278,15 @@ a span {
 	}
 
 .screen-footer label { 
-	width: 100%;	text-align: right; padding-right: 2rem; 
+	width: 100% !important;	
+	text-align: right; 
+	padding-right: 2rem !important; 
 }
+
+.screen-footer label span{ 
+	width: 100% !important;
+}
+
 .screen-footer input {
 	text-align: right; font-weight: bold;
 	}
@@ -340,3 +347,4 @@ a span {
 .input-disabled input {
 	border: 0; background-color: transparent;
 }
+
