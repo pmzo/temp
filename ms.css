@@ -1424,10 +1424,13 @@ b .x-title-text #DashboardPurchaseValueChart{
 	border-radius: 0 0 5px 5px;
 }
 
-.x-tool-collapse-left {}
+.x-tool-collapse-left {
+    background-image: url('http://kvlt.info/muhasaba/icons/backburger.svg') !important;
+    background-size: contain;
+}
 
 .x-tool-expand-right {
-    background-image: url('http://kvlt.info/muhasaba/icons/backburger.svg') !important;
+    background-image: url('http://kvlt.info/muhasaba/icons/menu.svg') !important;
     background-size: contain;
 }
 
