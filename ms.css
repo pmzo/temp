@@ -1548,20 +1548,25 @@ a span {
 	border-radius: 8px; 
 	border: 1px solid var(--black) !important;
 	}
+	
 .screen-main .x-grid-header-ct {
-	border-width: 0; background: var(--grey-dark); color: var(--white);
+	background: var(--grey-dark); 
+	color: var(--white);
+	border-color: var(--grey-dark);
 }
+
 .screen-main .x-column-header {
 	color: inherit; 
 	background: transparent;
 	}
+	
 .screen-main .x-column-header-focus {
 	color: var(--grey-dark); 
 	background: var(--white);
 	}
 .screen-main .x-column-header-over {
-	color: var(--black); 
-	background: var(grey-light); 
+	color: var(--white); 
+	background: var(--grey-dark); 
 	}
 
 .centertabpanel .x-tab-bar-body-default, 
