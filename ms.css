@@ -18,8 +18,8 @@
 /*********************************/
 
 
-body {
-	font-family: var(--font-fam-sans);
+* {
+	font-family: var(--font-fam-sans) !important;
 }
 
 /*********BAYASYS.CSS ***********/
