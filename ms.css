@@ -1352,7 +1352,9 @@ b .x-title-text #DashboardPurchaseValueChart{
 #ext-element-460 {background-image: url('http://kvlt.info/muhasaba/icons/tune.svg');}
 #ext-element-506 {background-image: url('http://kvlt.info/muhasaba/icons/tools.svg');}
 
-
+.x-form-item-label-default {
+	font-size: inherit;
+}
 
 #bt_moduleListmenu li:hover {
 	background-color: transparent;
