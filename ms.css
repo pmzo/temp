@@ -23,10 +23,9 @@
 /*********BAYASYS.CSS ***********/
 
 .x-column-header {
-    border-right: 1px solid #cfcfcf;
     color: #666;
     outline: 0;
-    background-color: #f5f5f5;
+	font-family: var(--font-fam-sans) !important; 
 }
 .x-tab-bar-default {
     background-color: #ECE9E9;
