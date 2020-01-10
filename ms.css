@@ -1355,6 +1355,9 @@ b .x-title-text #DashboardPurchaseValueChart{
 .x-form-item-label-default {
 	font-size: inherit;
 }
+.x-fieldset-default{
+	border-width: 0;
+}
 
 #bt_moduleListmenu li:hover {
 	background-color: transparent;
