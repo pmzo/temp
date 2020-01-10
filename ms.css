@@ -25,7 +25,6 @@
 .x-column-header {
     border-right: 1px solid #cfcfcf;
     color: #666;
-    font: 300 13px/15px helvetica, arial, verdana, sans-serif;
     outline: 0;
     background-color: #f5f5f5;
 }
@@ -277,15 +276,12 @@ ext-el-mask{
     border-top-color: #ff5; 
     color:#000; 
     font-weight: bold; 
-    font: bolder;
-
 }
 
 .custom-grid-rpt-null-hdr .x-column-header { 
     border-color: #ffffff;
     color:#000; 
     font-weight: bold; 
-    font: bolder;
     text-align: center;
     background-color: #ffffff;
 }
@@ -499,11 +495,7 @@ th, td {
     color:#000000;
     
 }
-.wincustom {
-	border-width: 2px;
-	border-color: #159857;
-	border-style:solid;
-}
+
 .mainPageGroupPanel .x-panel-header {
     color:#15428b;
     border-color:#99bbe8;
@@ -1228,7 +1220,7 @@ text-align: center;
 	opacity:0.5;
 }
 .x-panel-header-default .x-tool-img {
-    background-color: #67c080;
+    background-color: transparent;
 }
 
 .refreshbutton{
@@ -1496,6 +1488,10 @@ b .x-title-text #DashboardPurchaseValueChart{
 	background-position: center center !important;	
 }
 
+.x-form-date-trigger {
+		display: block;
+}
+
 .x-tab-wrap {
 	margin-top: -3px;
 }
@@ -1583,8 +1579,9 @@ a span {
 .x-mask {
 	background-color: var(--white-25);
 	}
+	
 #ext-element-92 {
-	opacity: 1;	
+	opacity: 1 !important;	
 }
 #LoginWindow-body input {
 	border: 1px solid var(--black); border-radius: 4px; padding: 10px;
@@ -1598,14 +1595,15 @@ a span {
 	}
 
 .input-selector input {
-	background-image: url('http://kvlt.info/muhasaba/icons/chevron-down.svg'); 
+	/* background-image: url('http://kvlt.info/muhasaba/icons/chevron-down.svg'); */
 	}
 .input-datepicker input {
-	background-image: url('http://kvlt.info/muhasaba/icons/calendar-month-outline.svg');
+	/* background-image: url('http://kvlt.info/muhasaba/icons/calendar-month-outline.svg'); */
 	}
+	
 .input-disabled input,
-input[disabled] {
-	border: 0; 
-	background-color: transparent;
+input[disabled]{
+	border: 0 !important; 
+	background-color: transparent !important;
 }
 
