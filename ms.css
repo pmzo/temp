@@ -1329,8 +1329,8 @@ b .x-title-text #DashboardPurchaseValueChart{
 
 
 .x-grid-item {
-	font-family: var(--font-fam-sans) !important;
-}
+	font-size: inherit;
+	}
 
 #ext-element-105 {background-image: url('http://kvlt.info/muhasaba/icons/wallet.svg');}
 	#ext-element-198{}
