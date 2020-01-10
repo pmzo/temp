@@ -18,7 +18,9 @@
 /*********************************/
 
 
-
+body {
+	font-family: var(--font-fam-sans);
+}
 
 /*********BAYASYS.CSS ***********/
 
@@ -26,9 +28,9 @@
     color: #666;
     outline: 0;
 	font-family: var(--font-fam-sans) !important; 
+	font-size: inherit !important;
 }
 .x-tab-bar-default {
-    background-color: #ECE9E9;
 }
 
 @page { margin: 0; }
@@ -57,7 +59,7 @@ ext-el-mask{
 
 .x-grid-cell-inner-row-numberer {
     padding: 5px 5px 4px 3px;
-    background-color: rgb(189, 193, 191);
+    background-color: transparent;
 }
 
 .imagebutton {
@@ -121,12 +123,6 @@ ext-el-mask{
    	font-weight: bolder;
     min-height: 22px;
 }
-.x-form-text-defaultfroDisabled {
-    color: #000;
-    padding: 3px 6px 2px;
-    background-color: rgb(189, 193, 191);
-    min-height: 22px;
-}
 
 .x-form-checkbox-defaultChkDisabled {
     background: url(images/checkbox-disabled.png) no-repeat;
@@ -136,7 +132,7 @@ ext-el-mask{
 }
 .x-grid-row .custom-column { 
     color: #000;  
-    background-color: rgb(189, 193, 191);
+    background-color: var(--grey-light);
     min-height: 22px;
 }
 
@@ -1053,13 +1049,13 @@ div.thumb-wrap div.overlayo input.preview:hover {
 .x-form-text-defaultfroDisabled {
 	background: transparent;
 	border: none !important; 
-	border-bottom: 1px dotted #000;
+    color: var(--black);
+    padding: 3px 6px 2px;
+    min-height: 22px;
 }
 
 
-body {
-	font-family: var(--font-fam-sans);
-}
+
 .x-panel-body-default, .x-form-text-default {
 	font-family: var(--font-fam-sans); 
 	font-size: 1rem;
@@ -1607,3 +1603,5 @@ input[disabled]{
 	background-color: transparent !important;
 }
 
+.input-spacer {
+}
