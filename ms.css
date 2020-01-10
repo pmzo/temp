@@ -1,5 +1,5 @@
 /* 
-17
+v18
  */
 
 :root {
@@ -172,6 +172,13 @@ ext-el-mask{
     height: 23px;
     width: 90px;
     cursor: pointer;
+}
+
+.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
+	color: var(--white);
+}
+.x-column-header-inner {
+	padding: 10px;
 }
 
 .YellowColor .x-grid-cell{    
@@ -1583,7 +1590,7 @@ a span {
 	background-color: var(--white-25);
 	}
 	
-#ext-element-92 {
+#ext-element-91 {
 	opacity: 1 !important;	
 }
 #LoginWindow-body input {
