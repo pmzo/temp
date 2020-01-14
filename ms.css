@@ -1561,3 +1561,8 @@ table thead th {
 .x-datepicker-month .x-btn-inner {
 	color: var(--black);	
 }
+
+.x-btn-default-small {
+	background-color: var(--primary);
+	border-color: var(--primary);
+}
