@@ -1126,10 +1126,8 @@ text-align: center;
 	background-color: #39c8f447 ;
 	background-color:  #0b63df6e;
 	background-color: #e5e5e56e;
-}   
-.x-btn-button :hover{
-	background-color: var(--white) !important;
-}
+}  
+
 .x-box-inner .icons-panel{
 	background-color: #39c8f447 !important;
 }
