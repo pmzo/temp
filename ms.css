@@ -1568,7 +1568,7 @@ table thead th {
 	border-color: var(--primary);
 }
 
-#northpanel input {
+#northPanel input {
 	border: 1px solid var(--black);
 	border-radius: 4px 0 0 4px;
 	border-right: none;
