@@ -173,7 +173,9 @@ ext-el-mask{
     width: 90px;
     cursor: pointer;
 }
-
+.x-tab-inner-default {
+	color: var(--black);
+}
 .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
 	color: var(--white);
 }
