@@ -1200,11 +1200,6 @@ b .x-title-text #DashboardPurchaseValueChart{
       background-color: var(--white) !important;
 }
 
-.x-treelist-container .x-treelist-item{
-       background-color: #4a4a4a !important;
-       
-}
-
 .x-treelist-item .superchild{
        background-color: var(--grey-light) !important;
 }
