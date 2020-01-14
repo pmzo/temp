@@ -1578,3 +1578,7 @@ table thead th {
 .x-title-text {
 	color: var(--black);
 }
+
+.x-boundlist-item {
+	background: var(--white);
+}
