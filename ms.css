@@ -1505,8 +1505,11 @@ a span {
 	}
 	
 .wincustom .x-mask{
-	background: var(--white);	
+	background: var(--white) url(http://www.muhasaba.ae/MuhasabaTest/resources/css/images/muhasaba1.png) no-repeat center top;	
 }
+
+.wincustom img {display: none;}
+
 #LoginWindow-body input {
 	border: 1px solid var(--black); border-radius: 4px; padding: 10px;
 	}
