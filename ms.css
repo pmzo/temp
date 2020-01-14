@@ -1552,7 +1552,7 @@ table thead th {
 }
 
 .x-boundlist-list-ct thead {
-    background: var(white);
+    background: var(--white);
 }
 
 .x-window-header-default {
