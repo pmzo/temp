@@ -1557,3 +1557,7 @@ table thead th {
 .x-window-header-default {
 	background-image: none;
 }
+
+.x-datepicker-month .x-btn-inner {
+	color: var(--black);	
+}
