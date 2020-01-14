@@ -60,10 +60,6 @@ ext-el-mask{
     padding: 10px;
 }
 
-#ext-element-14 {
-	background: var(--white);
-}
-
 .x-grid-cell-inner-row-numberer {
     padding: 5px 5px 4px 3px;
     background-color: transparent;
