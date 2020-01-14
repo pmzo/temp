@@ -28,7 +28,7 @@ v19
 
 .x-column-header {
     color: var(--white);
-	backgroud: var(--black);
+	background: var(--black);
     outline: 0;
 	font-family: var(--font-fam-sans) !important; 
 	font-size: inherit !important;
