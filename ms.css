@@ -1545,3 +1545,8 @@ table thead th {
 	font-size: .9rem;
 	font-weight: normal;
 }
+
+
+.x-window-header-default {
+	background-image: none;
+}
