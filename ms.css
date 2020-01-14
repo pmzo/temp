@@ -27,7 +27,8 @@ v19
 /*********BAYASYS.CSS ***********/
 
 .x-column-header {
-    color: #666;
+    color: var(--white);
+	backgroud: var(--black);
     outline: 0;
 	font-family: var(--font-fam-sans) !important; 
 	font-size: inherit !important;
