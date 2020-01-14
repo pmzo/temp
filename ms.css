@@ -1532,3 +1532,16 @@ input[disabled]{
 
 .input-spacer {
 }
+
+thead {
+    background: var(--black);
+    color: var(--white);
+    border-radius: 4px 4px 0 0;
+}
+
+table thead th {
+    background: var(--black);
+	text-decoration: none;
+	font-size: .9rem;
+	font-weight: normal;
+}
