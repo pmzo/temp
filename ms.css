@@ -1543,7 +1543,6 @@ thead {
 }
 
 table thead th {
-    background: var(--black);
 	text-decoration: none;
 	font-size: .9rem;
 	font-weight: normal;
