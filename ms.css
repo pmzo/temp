@@ -1553,6 +1553,9 @@ table thead th {
 	font-weight: normal;
 }
 
+.x-boundlist-list-ct thead {
+    background: var(white);
+}
 
 .x-window-header-default {
 	background-image: none;
