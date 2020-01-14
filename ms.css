@@ -1504,7 +1504,7 @@ a span {
 	background-color: var(--white-25);
 	}
 	
-.x-mask.wincustom {
+.wincustom .x-mask{
 	background: var(--white);	
 }
 #LoginWindow-body input {
