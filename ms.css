@@ -1573,3 +1573,8 @@ table thead th {
 	border-radius: 4px 0 0 4px;
 	border-right: none;
 }
+
+
+.x-title-text {
+	color: var(--black);
+}
